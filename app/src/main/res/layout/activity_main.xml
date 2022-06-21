@@ -16,10 +16,6 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         app:defaultNavHost="true"
-        app:layout_constrainedBottom_toBottomOf="parent"
-        app:layout_constrainedEnd_toEndOf="parent"
-        app:layout_constrainedStart_toStartOf="parent"
-        app:layout_constrainedTop_toTopOf="parent"
         app:navGraph="@navigation/my_nav"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
